@@ -27,7 +27,7 @@ daemonset:
                       logs_path: "/var/log/containers/"
 
       output.logstash:
-        hosts: ["34.226.190.5:5044"]
+        hosts: ["35.173.204.77:5044"]
 
       logging.level: info
       setup.template.enabled: false
